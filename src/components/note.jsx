@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Note.css';
+import '../index.css';
 import PropTypes from 'prop-types';
 
 class Note extends Component {
@@ -17,12 +17,12 @@ class Note extends Component {
 
 	render(props) {
 		return(
-			<div className="note fade-in">
+			<div className="int-md bg-color-secondary border-round border-all fade-in">
 				<span className="closebtn" 
 					onClick={() => this.handleRomoveNote(this.noteId)}>
 					&times;
 				</span>
-				<p className="noteContent">{this.noteContent}</p>
+				<p className="">{this.noteContent}</p>
 			</div>
 		)
 	}

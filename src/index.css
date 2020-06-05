@@ -1,3 +1,5 @@
+/*kanto html elements*/
+
 body {
   margin: 0 !IMPORTANT;
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
@@ -6,14 +8,33 @@ body {
   overscroll-behavior: none;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+button:focus, input:focus {
+    outline: none !important;
+}
+
+button {
+	padding: 0px;
+}
+
+input {
+	border: none;
+	width: 90%;
+}
+
+label, input {
+	display: inline-block;
+}
+
+
 /*kanto colors*/
 
-.text-color {
+.text-color-primary {
 	color: #000000;
 }
 
@@ -25,7 +46,7 @@ code {
 	color: #FFFFFF;
 }
 
-.bg-color {
+.bg-color-primary {
 	background-color: #F5F5F5;
 }
 
@@ -49,6 +70,7 @@ code {
 	background-color: #E1E1E1;
 }
 
+
 /*kanto text*/
 
 span, p, h1, h2, h3, h4, h5 , h6 {
@@ -67,6 +89,194 @@ span, p, h1, h2, h3, h4, h5 , h6 {
 p, span, button, input {
 	font-size: .8rem;
 }
+
+.interior-page {
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.container-title {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px !IMPORTANT;
+	line-height: 30px;
+}
+
+.interior-title {
+	vertical-align: middle !IMPORTANT;
+	display: inline-block;
+}
+
+.settings-spacing {
+	padding-left: 40px;
+}
+
+.container-primary {
+	padding: 20px;
+}
+
+.container-page {
+	height: 100vh;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.vertical-center {
+	vertical-align: middle;
+}
+
+.vertical-bottom {
+	vertical-align: middle;
+}
+
+.ext-write {
+
+}
+
+.interior-write {
+    vertical-align: middle;
+}
+
+.footer {
+	position: fixed;
+ 	bottom: 0;
+ 	width: 100%;
+}
+
+
+/*kanto sidebar*/
+
+.interior-sidebar {
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.container-sidebar {
+	position: fixed;
+	width: inherit;
+}
+
+
+/*kanto topbar*/
+
+.interior-topbar {
+	padding-top: 10px !IMPORTANT;
+	padding-bottom: 10px !IMPORTANT;
+	padding-left: 40px !IMPORTANT;
+	padding-right: 40px !IMPORTANT;
+}
+
+.container-topbar {
+	height: 50px;
+	width: 100%;
+}
+
+/*kanto buttons*/
+
+.button {
+	border-width: 0px;
+    border-color: none;
+}
+
+.buttons {
+	margin-right: 10px;
+}
+
+.button-height {
+	
+	height: 30px;
+}
+
+.button-primary {
+	border-radius: 4px;
+	border-width: 0px;
+	height: 40px;
+	
+}
+
+/*kanto sessions*/
+
+.line {
+	flex-grow:1;
+  	height: 1px;
+}
+
+.session-div {
+	display:flex;
+  	flex-direction:row;
+  	align-items: center;
+}
+
+.session-tag {
+	flex-grow:0;
+}
+
+/*kanto write*/
+
+.write {
+	margin-bottom: 20px;
+	margin:40px;
+}
+
+.write-line {
+	background-color: #878787;
+	margin: 0px;
+}
+
+/*kanto icons*/
+
+.icon-write {
+	height: 30px;
+	width: 2px;
+	border-radius: 1px;
+	vertical-align: middle !IMPORTANT;
+}
+
+.icon {
+	vertical-align: text-bottom !IMPORTANT;
+}
+
+/*kanto borders*/
+.border-right {
+	border-right: 0.5px solid #878787;
+}
+
+.border-bottom {
+	border-bottom: 0.5px solid #878787;
+}
+
+.border-top {
+	border-top: 0.5px solid #878787;
+}
+
+.border-left {
+	border-left: 0.5px solid #878787;
+}
+
+.border-all {
+	border: 0.5px solid #878787;
+}
+
+.border-thick {
+	border: 1px solid #878787;
+	border-radius: 4px;
+}
+
+.border-round {
+	border-radius: 2px;
+	border-width: 0px;
+	border-color: #000000;
+}
+
+.border-tag {
+	border-radius: 2px;
+	border: 1px solid #878787;
+}
+
 
 /*kanto interior spacing*/
 
@@ -216,4 +426,72 @@ p, span, button, input {
 	margin: 40px;
 }
 
+.align-right {
+	display: inline-flex; 
+	justify-content: flex-end;
+}
+/*______________________________________*/
 
+.note {
+  padding:10px 10px 38px 34px;
+  height: auto; 
+  margin: auto;
+  margin-bottom: 8px;
+  width: 60%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  color: #222;
+  background-color: #eed; 
+  border-radius: 3px;
+  box-shadow: 43x 3px 2px #333;
+  opacity: 1;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+@keyframes fadeOut { from { opactiy:0.8; } to { opacity:0; } }
+
+.fade-in {
+    opacity:0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 0.1s;
+}
+
+.noteContent{
+  float:left;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.closebtn {
+    color: #AA9;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.closebtn:hover {
+    color: #AC2500;
+}
+
+.formWrapper{
+    margin: auto;
+}
+
+.noteform-input{
+    width: 760px;
+    min-width: 760px;
+    padding-left: 20px;
+    color: #111;
+    transition: 0.2s ease-out;
+    border: 1px solid #878787;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.noteform-input:focus{
+    color: #111;
+    transition: 0.2s ease-in;
+}
