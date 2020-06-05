@@ -4,15 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is the code for kanto (work in progress). What is kanto? ...
 
-##Problem
+## Problem
 
 Account managers spend their week in back-to-back meetings—relaying project insights from clients to their team and back again. With so many projects, emails, and tasks to oversee, account managers are burdened with endless information. Getting the right information to the right people requires substantial time and energy.  
 
-##Mission & Vision
+## Mission & Vision
 
 Kanto makes client project information accessible, insightful, and actionable in order to build healthy, effective workplace cultures and relationships. 
 
-##Solution
+## Solution
 
 Kanto is a cloud-based web application for account managers at consulting agencies to document, organize, and assign client project information. Kanto will act as a ‘knowledge base’ for account managers to update and reference as they make progress on multiple projects.
 
@@ -22,6 +22,6 @@ Organization: Kanto enables account managers to organize notes by project, proje
 
 Delegation: With all project notes in one place, delegation becomes simple. Account managers can export relevant project notes by project section, note type, or timestamp in order to get the right information to the right team members. 
 
-##Customer/User Archetype
+## Customer/User Archetype
 
 Client-facing managers who struggle with information overload from multiple client projects.
