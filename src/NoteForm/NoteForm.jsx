@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NoteForm.css';
 import PropTypes from 'prop-types';
+import Button from '../Button/Button';
 
 class NoteForm extends Component {
 
@@ -32,12 +33,12 @@ class NoteForm extends Component {
 	render() {
 		return(
 			<div className="formWrapper">
-				<input className="noteInput"
+				<input className="noteform-input"
 				placeholder="Write a new note..."
 				value={this.state.newNoteContent}
 				onChange={this.handleUserInput} />
-				<button className="noteButton"
-				onClick={this.writeNote}>Add Note</button>
+				<Button color="color-primary text-color-inverse"
+				onclick={this.writeNote} title="Add Note" />
 			</div>
 		)
 	}

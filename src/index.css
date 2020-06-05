@@ -1,13 +1,219 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0 !IMPORTANT;
+  font-family: 'Helvetica', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*kanto colors*/
+
+.text-color {
+	color: #000000;
+}
+
+.text-color-input {
+	color: #777777;
+}
+
+.text-color-inverse {
+	color: #FFFFFF;
+}
+
+.bg-color {
+	background-color: #F5F5F5;
+}
+
+.bg-color-secondary {
+	background-color: #FFFFFF;
+}
+
+.bg-color-selected {
+	background-color: #E0E0E0;
+}
+
+.color-primary {
+	background-color: #50AC7C;
+}
+
+.color-accent {
+	background-color: #777777;
+}
+
+.color-tag {
+	background-color: #E1E1E1;
+}
+
+/*kanto text*/
+
+span, p, h1, h2, h3, h4, h5 , h6 {
+	margin-block-start: 0px !IMPORTANT;
+    margin-block-end: 0px !IMPORTANT;
+}
+
+.weight-normal {
+	font-weight: normal !IMPORTANT;
+}
+
+.weight-bold {
+	font-weight: bold !IMPORTANT;
+}
+
+p, span, button, input {
+	font-size: .8rem;
+}
+
+/*kanto interior spacing*/
+
+.int-top-sm {
+	padding-top: 5px !IMPORTANT;
+}
+
+.int-top-md {
+	padding-top: 10px !IMPORTANT;
+}
+
+.int-top-lg {
+	padding-top: 20px !IMPORTANT;
+}
+
+.int-bottom-sm {
+	padding-bottom: 5px !IMPORTANT;
+}
+
+.int-bottom-md {
+	padding-bottom: 10px !IMPORTANT;
+}
+
+.int-bottom-lg {
+	padding-bottom: 20px !IMPORTANT;
+}
+
+.int-right-sm {
+	padding-right: 5px !IMPORTANT;
+}
+
+.int-right-md {
+	padding-right: 10px !IMPORTANT;
+}
+
+.int-right-lg {
+	padding-right: 20px !IMPORTANT;
+}
+
+.int-right-xl {
+	padding-right: 40px !IMPORTANT;
+}
+
+.int-left-sm {
+	padding-left: 5px !IMPORTANT;
+}
+
+.int-left-md {
+	padding-left: 10px !IMPORTANT;
+}
+
+.int-left-lg {
+	padding-left: 20px !IMPORTANT;
+}
+
+.int-left-xl {
+	padding-left: 40px !IMPORTANT;
+}
+
+.int-sm {
+	padding: 5px;
+}
+
+.int-md {
+	padding: 10px;
+}
+
+.int-lg {
+	padding: 20px;
+}
+
+.int-xl {
+	padding:40px;
+}
+
+/*kanto exterior spacing*/
+
+.ext-top-sm {
+	margin-top: 5px !IMPORTANT;
+}
+
+.ext-top-md {
+	margin-top: 10px !IMPORTANT;
+}
+
+.ext-top-lg {
+	margin-top: 20px !IMPORTANT;
+}
+
+.ext-bottom-sm {
+	margin-bottom: 5px !IMPORTANT;
+}
+
+.ext-bottom-md {
+	margin-bottom: 10px !IMPORTANT;
+}
+
+.ext-bottom-lg {
+	margin-bottom: 20px !IMPORTANT;
+}
+
+.ext-right-sm {
+	margin-right: 5px !IMPORTANT;
+}
+
+.ext-right-md {
+	margin-right: 10px !IMPORTANT;
+}
+
+.ext-right-lg {
+	margin-right: 20px !IMPORTANT;
+}
+
+.ext-right-xl {
+	margin-right: 40px !IMPORTANT;;
+}
+
+.ext-left-sm {
+	margin-left: 5px !IMPORTANT;
+}
+
+.ext-left-md {
+	margin-left: 10px !IMPORTANT;
+}
+
+.ext-left-lg {
+	margin-left: 20px !IMPORTANT;
+}
+
+.ext-left-xl {
+	margin-left: 40px;
+}
+
+.ext-sm {
+	margin: 5px;
+}
+
+.ext-md {
+	margin: 10px;
+}
+
+.ext-lg {
+	margin: 20px;
+}
+
+.ext-xl {
+	margin: 40px;
+}
+
+
